@@ -9,4 +9,4 @@ def mainpage():
 
 app.register_blueprint(send_route, url_prefix="/send")
 
-app.run(host="192.168.18.64", port=3000)
+app.run(host="0.0.0.0", debug=False)
